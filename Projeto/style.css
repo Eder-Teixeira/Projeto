@@ -1,0 +1,943 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.fundo1,
+.fundo2 {
+    background-color: #000000;
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.logo .logo-img {
+    width: 50px;
+    margin-left: 30px;
+    padding-top: 10px;
+
+}
+
+.logo-img:hover {
+    transform: scale(1.2);
+}
+
+
+.logo span {
+    color: #111111;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    text-align: center;
+    background-color: gold;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.cabecalho {
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: .2em solid #c7c6c6f3;
+    position: fixed;
+    z-index: 3;
+    background-image: url(imagens/images\ \(1\).jpg);
+
+
+
+}
+
+.cabecalho section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+    padding-right: 50px;
+
+}
+
+
+.navbar .drop a {
+    color: rgb(247, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+
+}
+
+
+#cont {
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 7px;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    color: #111111;
+}
+
+#cont:hover {
+    background-color: gold;
+
+    box-shadow: 1px 1px 1px 5px #fffbfb;
+    transition: 0.6s all ease-in-out;
+}
+
+.drop .nav a {
+    color: rgb(248, 248, 248);
+    display: block;
+    margin-top: 3px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px #fffbfbfa;
+    border-radius: 5px;
+    display: none;
+}
+
+.drop:hover .nav a {
+    display: block;
+
+}
+
+.nav {
+    position: absolute;
+}
+
+.nav a:hover {
+    background-color: #faf9f9f8;
+    color: #111111;
+}
+
+.banner {
+    background-image: url(imagens/banner-fazer-pedidonovo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35vh;
+    background-position: center center;
+
+
+}
+
+.banner1 {
+    background-image: url(imagens/banner-fazer-pedidonovo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35vh;
+    background-position: center center;
+}
+
+.banner1 .container {
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+.banner .container {
+    display: flex;
+    margin-top: 126px;
+    justify-content: center;
+
+}
+
+.container h1 {
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 4rem;
+
+}
+
+span.subtitulo {
+    position: absolute;
+    padding: 5px;
+    left: 27%;
+    border: 1px solid #f6fa0a;
+    display: inline-block;
+    color: #fcfcfc;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    box-shadow: 0 0 30px #f6fa0a;
+
+}
+
+h3.meio {
+    position: absolute;
+    display: inline-block;
+    margin-top: 490px;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #fcfcfc;
+    left: 38%;
+    gap: 10px;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0 0 20px #e7e302;
+
+}
+
+span.prata {
+    color: #3b3b3b;
+
+}
+
+span.folhado {
+    color: #b89600;
+
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 220px);
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 200px;
+
+    margin-top: 124px;
+
+}
+
+.card {
+
+    background-color: #fffb01;
+
+    box-shadow: 1px 4px 6px #fefffff3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-out;
+}
+
+.card img {
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 220px;
+    height: 180px;
+    cursor: pointer;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+.card h2 {
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card h3 {
+    text-align: center;
+    color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card span {
+    display: flex;
+    color: rgb(252, 250, 250);
+    text-align: center;
+    justify-content: center;
+    background-color: #111111;
+    width: 220px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 25px;
+
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+}
+
+#icon img {
+
+    margin-top: 10px;
+    height: 80px;
+
+}
+
+#icon img:hover {
+    transition: all 1s;
+    transform: scale(1.2);
+
+}
+
+#icon p {
+
+    color: #0a0a0a;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3fe70c;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+
+}
+
+.direito p {
+    position: absolute;
+
+    color: #fffbfb;
+    left: 50px;
+    margin-top: 20px;
+
+}
+
+.direito button {
+    position: absolute;
+
+    right: 50px;
+    margin-top: 10px;
+    padding: 8px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #b89600;
+    cursor: pointer;
+
+}
+
+.direito button:hover {
+    box-shadow: 0 0 5px #fdfdfd;
+    transform: scale(1.2);
+}
+
+/* página prata */
+
+.icon1 a:hover {
+    transform: scale(1.2);
+
+}
+
+span.subtituloprata,
+.subtitulofolhado {
+    position: absolute;
+    padding: 5px;
+    left: 36%;
+    border: 1px solid #f6fa0a;
+    display: inline-block;
+    color: #fcfcfc;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    box-shadow: 0 0 30px #f6fa0a;
+
+}
+
+/* Folhado */
+/* .subtitulofolhado {
+    position: absolute;
+    padding: 5px;
+    left: 34%;
+    border: 1px solid #f6fa0a;
+    display: inline-block;
+    color: #fcfcfc;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    box-shadow: 0 0 30px #f6fa0a;
+
+} */
+.icon1 {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.icon1 a {
+    margin-top: 15px;
+    color: #fcfcfc;
+    font-size: 20px;
+    box-shadow: 0 0 15px #d8f003;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.icon1 a:hover {
+    transform: scale(1.2);
+}
+
+/* footer.prata{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    bottom: 0;
+    position: absolute;
+    
+
+} */
+
+/* Responsivo */
+
+
+@media screen and (max-width:768px){
+    .container h1 {
+        font-size: 3rem;
+    }
+
+    span.subtitulo {
+        display: none;
+    }
+    h3.meio {
+
+        margin-top: 180px;
+        font-size: 3rem;
+        left: 13rem;
+
+    }
+    
+    span.subtituloprata {
+        display: inline-block;
+        margin-top: 130px;
+        margin-left: -110px;
+    }
+    span.subtitulofolhado {
+        display: inline-block;
+        margin-top: 130px;
+        margin-left: -130px;
+    }
+
+    .grid {
+
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        column-gap: 20px;
+        row-gap: 26px;
+        max-width: 100%;
+        margin-top: 130px;
+    }
+
+    .card span {
+
+        width: 100%;
+
+    }
+    #icon {
+        
+        margin-bottom: 50px;
+
+}
+.direito button {
+    
+    right: 40px;
+    margin-top: 5px;
+    padding: 8px;
+ 
+}
+.direito p {
+    
+    margin-top: 30px;
+}
+}
+@media screen and (max-width:428px) {
+    .banner,
+    .banner1 {
+
+        background-position: right center;
+    }
+
+    .icon1 {
+        display: inline-block;
+
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+    }
+
+    .icon1 a {
+        margin-top: 15px;
+        color: #fcfcfc;
+        font-size: 25px;
+        box-shadow: 0 0 15px #d8f003;
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    .container h1 {
+        margin-top: 60px;
+        font-size: 3rem;
+    }
+
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 90px;
+    }
+
+    .grid {
+
+        display: grid;
+        grid-template-columns: repeat(1, 240px);
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 26px;
+        max-width: 100%;
+        margin-top: 120px;
+    }
+
+    h3.meio {
+
+        margin-top: 80px;
+        font-size: 2.5rem;
+        left: 70px;
+
+    }
+
+    span.subtitulo {
+        display: none;
+    }
+
+    span.subtitulofolhado {
+        display: none;
+
+    }
+
+    span.subtituloprata {
+        display: none;
+
+    }
+
+    #clique {
+        display: none;
+    }
+
+    #icon .clique2,
+    .clique3 {
+        display: none;
+    }
+
+    #icon {
+
+        margin-bottom: 50px;
+        margin-right: 60px;
+    }
+
+    .direito button {
+
+        right: 40px;
+        margin-top: 0;
+        padding: 8px;
+        width: 70px;
+    }
+}
+@media screen and (max-width:414px) {
+
+    .banner,
+    .banner1 {
+
+        background-position: right center;
+    }
+
+    .icon1 {
+        display: inline-block;
+
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+    }
+
+    .icon1 a {
+        margin-top: 15px;
+        color: #fcfcfc;
+        font-size: 25px;
+        box-shadow: 0 0 15px #d8f003;
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    .container h1 {
+        margin-top: 60px;
+        font-size: 3rem;
+    }
+
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 80px;
+    }
+
+    .grid {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 220px);
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 26px;
+        max-width: 100%;
+        margin-top: 120px;
+    }
+
+    h3.meio {
+
+        margin-top: 80px;
+        font-size: 2.5rem;
+        left: 60px;
+
+    }
+
+    span.subtitulo {
+        display: none;
+    }
+
+    span.subtitulofolhado {
+        display: none;
+
+    }
+
+    span.subtituloprata {
+        display: none;
+
+    }
+
+    #clique {
+        display: none;
+    }
+
+    #icon .clique2,
+    .clique3 {
+        display: none;
+    }
+
+    #icon {
+
+        margin-bottom: 70px;
+        margin-right: 60px;
+    }
+
+    .direito button {
+
+        right: 40px;
+        margin-top: 0;
+        padding: 8px;
+        width: 70px;
+    }
+}
+@media screen and (max-width:412px) {
+    .container h1 {
+
+        margin-top: 20px;
+    }
+
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 170px;
+    }
+
+    h3.meio {
+
+        margin-top:140px;
+        margin-left:0;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    body {
+        width: 100%;
+    }
+
+    .fundo1 {
+
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    header.cabecalho {
+        width: 100vw;
+    }
+
+    .logo .logo-img {
+        display: flex;
+        width: 50px;
+        left: 0;
+    }
+
+    .logo span {
+
+        margin-left: 15px;
+        padding: 5px;
+    }
+
+    .banner {
+        background-image: url(imagens/banner-fazer-pedidonovo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 27vh;
+        background-position: right center;
+    }
+
+    .banner1 {
+        background-image: url(imagens/banner-fazer-pedidonovo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 27vh;
+        background-position: right center;
+
+    }
+
+    .container h1 {
+
+        display: flex;
+        color: #ffffff;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 10px;
+
+        font-size: 2.5rem;
+    }
+
+    span.subtitulo {
+
+        display: none;
+    }
+
+    .grid {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 220px);
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 26px;
+        max-width: 100%;
+        margin-top: 120px;
+    }
+
+    .card span {
+        display: flex;
+        color: rgb(252, 250, 250);
+        text-align: center;
+        justify-content: center;
+        background-color: #111111;
+        width: 100%;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    h3.meio {
+
+        width: 300px;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 2.5rem;
+        background-color: #fcfcfc;
+        left: 40px;
+        gap: 5px;
+        border-radius: 6px;
+        padding: 4px;
+        box-shadow: 0 0 20px #e7e302;
+    }
+
+    #icon {
+
+        margin-bottom: 70px;
+        margin-right: 60px;
+    }
+
+    #icon img {
+
+        margin-top: 10px;
+        height: 60px;
+
+    }
+
+    #icon img:hover {
+        transition: all 1s;
+        transform: scale(1.2);
+    }
+
+    #icon p {
+
+        color: #0a0a0a;
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #3fe70c;
+        padding: 5px;
+        border-radius: 20px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+    }
+
+    #clique {
+        display: none;
+    }
+
+    /* página prata */
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 60px;
+    }
+
+    #icon .clique2,
+    .clique3 {
+        display: none;
+    }
+
+    .direito p {
+        position: absolute;
+
+        color: #fffbfb;
+        left: 50px;
+        margin-top: 20px;
+    }
+
+    .direito button {
+        position: absolute;
+
+        right: 40px;
+        margin-top: 0;
+        padding: 8px;
+        width: 70px;
+        border-radius: 10px;
+
+    }
+
+    .direito button:hover {
+        box-shadow: 0 0 5px #fdfdfd;
+        transform: scale(1.2);
+    }
+
+    .icon1 {
+        display: inline-block;
+
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 50px;
+    }
+
+    .icon1 a {
+        margin-top: 15px;
+        color: #fcfcfc;
+        font-size: 20px;
+        box-shadow: 0 0 15px #d8f003;
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    .icon1 a:hover {
+        transform: scale(1.2);
+    }
+
+    .subtitulofolhado {
+        display: none;
+    }
+
+    .subtituloprata {
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container h1 {
+
+        margin-top: 10px;
+    }
+
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 65px;
+    }
+
+    h3.meio {
+
+        margin-top: 30px;
+    }
+}
+    @media screen and (max-width:360px) {
+        .container h1 {
+    
+            margin-top: 10px;
+        }
+    
+        .container,
+        .prata,
+        .folhado {
+            margin-top: 75px;
+        }
+    
+        h3.meio {
+    
+            margin-top:60px;
+            margin-left:-5px;
+        }
+    
+}
