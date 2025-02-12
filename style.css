@@ -364,11 +364,11 @@ span.subtituloprata,
 .subtitulofolhado {
     position: absolute;
     padding: 5px;
-    left: 36%;
+    left: 32%;
     border: 1px solid #f6fa0a;
     display: inline-block;
     color: #fcfcfc;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     font-size: 2.2rem;
     font-family: 'Times New Roman', Times, serif;
