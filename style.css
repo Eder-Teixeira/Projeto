@@ -941,3 +941,22 @@ span.subtituloprata,
         }
     
 }
+@media screen and (max-width:350px) {
+    .container h1 {
+
+        margin-top: 10px;
+    }
+
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 75px;
+    }
+
+    h3.meio {
+
+        margin-top:60px;
+        margin-left:-5px;
+    }
+
+}
