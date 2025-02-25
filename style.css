@@ -860,7 +860,7 @@ span.subtituloprata,
     .direito button {
         position: absolute;
 
-        right: 40px;
+        right: 20px;
         margin-top: 0;
         padding: 8px;
         width: 70px;
@@ -955,8 +955,8 @@ span.subtituloprata,
 
     h3.meio {
 
-        margin-top:60px;
-        margin-left:-5px;
+        margin-top:7px;
+        margin-left:-8px;
     }
 
 }
