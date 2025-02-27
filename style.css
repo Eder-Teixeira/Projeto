@@ -939,6 +939,12 @@ span.subtituloprata,
             margin-top:60px;
             margin-left:-5px;
         }
+        .direito p {
+            position: absolute;
+            color: #fffbfb;
+            left: 20px;
+            margin-top: 20px;
+        }
     
 }
 @media screen and (max-width:350px) {
@@ -961,7 +967,7 @@ span.subtituloprata,
     .direito p {
         position: absolute;
         color: #fffbfb;
-        left: 30px;
+        left: 20px;
         margin-top: 20px;
     }
 
@@ -986,7 +992,7 @@ span.subtituloprata,
     .direito p {
         position: absolute;
         color: #fffbfb;
-        left: 30px;
+        left: 20px;
         margin-top: 20px;
     }
 
