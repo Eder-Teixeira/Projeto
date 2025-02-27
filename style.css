@@ -950,13 +950,44 @@ span.subtituloprata,
     .container,
     .prata,
     .folhado {
-        margin-top: 75px;
+        margin-top: 60px;
     }
 
     h3.meio {
 
         margin-top:7px;
         margin-left:-8px;
+    }
+    .direito p {
+        position: absolute;
+        color: #fffbfb;
+        left: 30px;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .container h1 {
+
+        margin-top: 10px;
+    }
+
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 60px;
+    }
+
+    h3.meio {
+
+        margin-top:7px;
+        margin-left:-8px;
+    }
+    .direito p {
+        position: absolute;
+        color: #fffbfb;
+        left: 30px;
+        margin-top: 20px;
     }
 
 }
