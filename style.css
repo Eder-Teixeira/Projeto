@@ -924,6 +924,7 @@ span.subtituloprata,
 }
    
 @media screen and (max-width:360px) {
+    /* tentar mudar o tamanho da largura width=100% da tela ou menos */
     .container h1 {
 
         margin-top: 10px;
