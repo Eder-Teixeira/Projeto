@@ -933,12 +933,12 @@ span.subtituloprata,
     .container,
     .prata,
     .folhado {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     h3.meio {
-
-         margin-top:48px; 
+     width: 80%;
+         margin-top:24px; 
         margin-left:-5px;
     }
     .direito p {
