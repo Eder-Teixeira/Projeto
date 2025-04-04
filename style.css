@@ -950,7 +950,7 @@ span.subtituloprata,
     }
 
 }
- @media screen and (min-height:600px) {
+ @media screen and (min-height:500px) {
     .container h1 {
 
         margin-top: 10px;
