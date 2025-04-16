@@ -923,7 +923,7 @@ span.subtituloprata,
     }
 }
    
-@media screen and (max-width:350px) and (max-height:750px) {
+@media screen and (max-width:360px) and (max-height:750px) {
     /* tentar mudar o tamanho da largura width=100% da tela ou menos */
     .container h1 {
 
