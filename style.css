@@ -950,7 +950,7 @@ span.subtituloprata,
     }
 
 }
- @media screen and (max-height:800px){ 
+ @media screen and (max-height:810px){ 
     .container h1 {
 
         margin-top: 10px;
@@ -959,14 +959,14 @@ span.subtituloprata,
     .container,
     .prata,
     .folhado {
-        margin-top: 95px;
+        margin-top: 70px;
     }
 
     h3.meio {
 
         width: 80%;
-        height: 13.5%;
-            margin-top:50px; 
+        height: 10.5%;
+            margin-top:70px; 
            margin-left:-5px;
     }
     .direito p {
