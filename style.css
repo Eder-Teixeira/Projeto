@@ -434,7 +434,7 @@ span.subtituloprata,
 /* Responsivo */
 
 
-@media screen and (min-width:800px){
+@media screen and (max-width:800px){
     .container h1 {
         font-size: 3rem;
     }
