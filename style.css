@@ -442,14 +442,28 @@ span.subtituloprata,
     span.subtitulo {
         display: none;
     }
-    h3.meio {
+    /* h3.meio {
 
         margin-top: 90px;
         font-size: 3rem;
-        left: 13rem;
+        left: 13rem; */
 
     }
-    
+    .container,
+    .prata,
+    .folhado {
+        margin-top: 70px;
+          font-size: 30px;
+    } 
+   
+
+    h3.meio {
+
+        width: 80%;
+        /* height: ; */
+            margin-top:70px; 
+           margin-left:-5px;
+    }
     span.subtituloprata {
         display: inline-block;
         margin-top: 55px;
@@ -927,7 +941,7 @@ span.subtituloprata,
     /* tentar mudar o tamanho da largura width=100% da tela ou menos */
     .container h1 {
 
-        margin-top: 20px;
+        margin-top: 70px;
     }
 
     .container,
@@ -940,7 +954,7 @@ span.subtituloprata,
     h3.meio {
      width: 80%;
      height:8%;
-         margin-top:50px; 
+         margin-top:90px; 
         margin-left:-5px;
         font-size: 30px;
     }
