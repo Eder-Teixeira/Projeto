@@ -179,7 +179,7 @@ span.subtitulo {
     border: 1px solid #f6fa0a;
     display: inline-block;
     color: #fcfcfc;
-    margin-top: 48px;
+    margin-top: 65px;
     text-align: center;
     font-size: 2.2rem;
     font-family: 'Times New Roman', Times, serif;
@@ -368,7 +368,7 @@ span.subtituloprata,
     border: 1px solid #f6fa0a;
     display: inline-block;
     color: #fcfcfc;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     font-size: 2.2rem;
     font-family: 'Times New Roman', Times, serif;
@@ -434,7 +434,7 @@ span.subtituloprata,
 /* Responsivo */
 
 
-@media screen and (max-width:800px){
+/* @media screen and (max-width:768px){
     .container h1 {
         font-size: 3rem;
     }
@@ -448,7 +448,7 @@ span.subtituloprata,
         font-size: 3rem;
         left: 13rem; */
 
-    }
+    /* }
     .container,
     .prata,
     .folhado {
@@ -460,7 +460,7 @@ span.subtituloprata,
     h3.meio {
 
         width: 80%;
-        /* height: ; */
+         height: ; 
             margin-top:70px; 
            margin-left:-5px;
     }
@@ -849,9 +849,9 @@ span.subtituloprata,
 
     #clique {
         display: none;
-    }
+    } */
 
-    /* página prata */
+    /* página prata 
     .container,
     .pratas,
     .folhados {
@@ -939,7 +939,7 @@ span.subtituloprata,
    
 @media screen and (max-width:360px) {
     /* tentar mudar o tamanho da largura width=100% da tela ou menos */
-    .container h1 {
+    /* .container h1 {
 
         margin-top: 60px;
     }
@@ -954,7 +954,7 @@ span.subtituloprata,
     h3.meio {
      width: 80%;
     
-         /* margin-top:40px;  */
+          margin-top:40px;  
         margin-left:-5px;
         font-size: 20px;
     }
@@ -966,7 +966,7 @@ span.subtituloprata,
     }
 
 }
- @media screen and (min-height:810px){ 
+ @media screen and (min-height:800px){ 
     
 
     .container,
@@ -980,7 +980,7 @@ span.subtituloprata,
     h3.meio {
 
         width: 80%;
-        /* height: ; */
+        height: ; 
             margin-top:70px; 
            margin-left:-5px;
     }
@@ -991,4 +991,4 @@ span.subtituloprata,
         margin-top: 20px;
     } 
 
- }
+ }  */
